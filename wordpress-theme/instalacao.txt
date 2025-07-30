@@ -1,0 +1,133 @@
+# INSTRUÇÕES DE INSTALAÇÃO - TEMA AUTOBOLT WORDPRESS
+
+## PASSO A PASSO PARA INSTALAR O TEMA:
+
+### 1. PREPARAR OS ARQUIVOS
+- Crie uma pasta chamada "autobolt-theme" no seu computador
+- Copie todos os arquivos .txt desta pasta e renomeie removendo a extensão .txt:
+  * style.css.txt → style.css
+  * index.php.txt → index.php
+  * header.php.txt → header.php
+  * footer.php.txt → footer.php
+  * functions.php.txt → functions.php
+  * page.php.txt → page.php
+  * single.php.txt → single.php
+
+### 2. ADICIONAR IMAGENS
+Crie uma pasta "images" dentro da pasta do tema e adicione:
+- dashboard-autobolt.jpg (imagem do dashboard)
+- owner-roberto.jpg (foto do Roberto)
+- owner-fernanda.jpg (foto da Fernanda)  
+- owner-lucas.jpg (foto do Lucas)
+
+### 3. INSTALAR NO WORDPRESS
+
+#### Opção A - Via FTP:
+1. Comprima a pasta "autobolt-theme" em um arquivo .zip
+2. Acesse seu WordPress Admin → Aparência → Temas
+3. Clique em "Adicionar novo" → "Enviar tema"
+4. Selecione o arquivo .zip e clique em "Instalar agora"
+5. Ative o tema
+
+#### Opção B - Via cPanel/FTP:
+1. Acesse seu cPanel ou FTP
+2. Navegue até /public_html/wp-content/themes/
+3. Faça upload da pasta "autobolt-theme" completa
+4. No WordPress Admin → Aparência → Temas
+5. Ative o tema "Autobolt Landing"
+
+### 4. CONFIGURAÇÕES NECESSÁRIAS
+
+#### A. Configurar número do WhatsApp:
+1. WordPress Admin → Aparência → Personalizar
+2. Vá em "Configurações Autobolt"
+3. Altere o número do WhatsApp para o seu número
+4. Formato: 5511999999999 (código país + DDD + número)
+
+#### B. Configurar página inicial:
+1. WordPress Admin → Configurações → Leitura
+2. Selecione "Uma página estática"
+3. Página inicial: selecione uma página em branco ou crie uma nova
+
+#### C. Configurar SEO (opcional):
+1. Instale um plugin de SEO como Yoast ou RankMath
+2. Configure títulos e descrições para melhor posicionamento
+
+### 5. PERSONALIZAÇÕES ADICIONAIS
+
+#### Alterar cores do tema:
+- Edite o arquivo style.css
+- Procure pelas variáveis de cor no início do arquivo
+- Altere os valores HSL conforme sua marca
+
+#### Alterar textos:
+- Edite o arquivo index.php
+- Procure pelos textos e altere conforme necessário
+- Mantenha a estrutura HTML
+
+#### Adicionar Google Analytics:
+- Edite o arquivo header.php
+- Descomente e configure o código do Google Analytics
+- Substitua "GA_MEASUREMENT_ID" pelo seu ID
+
+#### Adicionar Facebook Pixel:
+- Edite o arquivo header.php  
+- Descomente e configure o código do Facebook Pixel
+- Substitua "YOUR_PIXEL_ID" pelo seu ID
+
+### 6. OTIMIZAÇÕES RECOMENDADAS
+
+#### A. Plugin de Cache:
+- Instale WP Rocket, W3 Total Cache ou similar
+- Configure cache de páginas para melhor performance
+
+#### B. Plugin de Otimização de Imagens:
+- Instale Smush, ShortPixel ou similar
+- Otimize todas as imagens automaticamente
+
+#### C. Plugin de Segurança:
+- Instale Wordfence ou similar
+- Configure firewall e monitoramento
+
+### 7. BACKUP
+- Sempre faça backup antes de instalar o tema
+- Use plugins como UpdraftPlus ou BackWPup
+
+### 8. SUPORTE
+Se encontrar problemas:
+1. Verifique se todos os arquivos foram copiados corretamente
+2. Certifique-se que as permissões dos arquivos estão corretas
+3. Verifique o log de erros do WordPress
+4. Teste em um ambiente de desenvolvimento primeiro
+
+### ARQUIVOS OBRIGATÓRIOS PARA O TEMA:
+✅ style.css (com cabeçalho do tema)
+✅ index.php (página principal)
+✅ header.php (cabeçalho)
+✅ footer.php (rodapé)
+✅ functions.php (funções do tema)
+✅ page.php (páginas)
+✅ single.php (posts individuais)
+
+### ESTRUTURA FINAL DA PASTA:
+```
+autobolt-theme/
+├── style.css
+├── index.php
+├── header.php
+├── footer.php
+├── functions.php
+├── page.php
+├── single.php
+└── images/
+    ├── dashboard-autobolt.jpg
+    ├── owner-roberto.jpg
+    ├── owner-fernanda.jpg
+    └── owner-lucas.jpg
+```
+
+### IMPORTANTE:
+- Teste sempre em um ambiente de desenvolvimento primeiro
+- Faça backup completo antes da instalação
+- O tema foi otimizado para landing pages de vendas
+- Personalize os números de WhatsApp e textos conforme sua necessidade

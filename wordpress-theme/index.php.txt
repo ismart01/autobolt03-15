@@ -1,0 +1,245 @@
+<?php get_header(); ?>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-content">
+        <div class="hero-text">
+            <h1>
+                🚗 Venda <span style="color: #00ff88;">3x Mais Carros</span><br>
+                Com Inteligência Artificial
+            </h1>
+            
+            <p>
+                Atenda instantaneamente, venda muito mais e poupe custos com o Agente Autobolt. O agente que nunca dorme
+            </p>
+            
+            <a href="https://wa.me/5511999999999?text=Quero%20conhecer%20o%20Autobolt" class="cta-button" target="_blank">
+                QUERO AGORA!
+            </a>
+        </div>
+        
+        <div class="hero-image">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/dashboard-autobolt.jpg" alt="Agente Autobolt" class="float-animation">
+        </div>
+    </div>
+</section>
+
+<!-- Problem vs Solution -->
+<section class="features">
+    <div class="container">
+        <h2 class="section-title">🔥 Problema vs Solução</h2>
+        
+        <div class="features-grid">
+            <div class="feature-card">
+                <h3>❌ Problema</h3>
+                <p>💸 Vendedores perdem horas com perguntas repetitivas.</p>
+            </div>
+            <div class="feature-card">
+                <h3>✅ Solução</h3>
+                <p>🤖 AUTOBOLT resolve 80% das dúvidas e transfere o lead qualificado!</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>❌ Problema</h3>
+                <p>🌙 Vendas zero após o horário comercial.</p>
+            </div>
+            <div class="feature-card">
+                <h3>✅ Solução</h3>
+                <p>🤖 Autobolt trabalha 24h captando leads qualificados!</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>❌ Problema</h3>
+                <p>📱 Clientes abandonam o WhatsApp sem resposta.</p>
+            </div>
+            <div class="feature-card">
+                <h3>✅ Solução</h3>
+                <p>⚡ Resposta em 3 segundos mantém cliente engajado!</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Features -->
+<section class="testimonials">
+    <div class="container">
+        <h2 class="section-title">⚡ Como o Autobolt Funciona</h2>
+        
+        <div class="features-grid">
+            <div class="feature-card">
+                <h3>Atendimento Automático Profissional</h3>
+                <p>Autobolt apresenta marca, modelo, ano, câmbio e outras informações importantes antes de transferir para o humano. Chega de responder a mesma coisa.</p>
+                <div style="font-size: 2rem; margin: 1rem 0;">💬 → 📞</div>
+            </div>
+            
+            <div class="feature-card">
+                <h3>Qualificação Inteligente de Leads</h3>
+                <p>Coleta informações essenciais: orçamento, prazo, forma de pagamento e interesse real antes do vendedor assumir.</p>
+                <div style="font-size: 2rem; margin: 1rem 0;">🎯 → 💰</div>
+            </div>
+            
+            <div class="feature-card">
+                <h3>Dashboard de Resultados</h3>
+                <p>Acompanhe conversões, leads qualificados e performance em tempo real com relatórios detalhados.</p>
+                <div style="font-size: 2rem; margin: 1rem 0;">📊 → 🚀</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials -->
+<section class="features">
+    <div class="container">
+        <h2 class="section-title">🗣️ O Que Dizem Nossos Clientes</h2>
+        
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="testimonial-quote">
+                    "Autobolt atende 90% das consultas iniciais! Nosso time agora foca só nos clientes prontos para comprar."
+                </div>
+                <div class="testimonial-author">Roberto</div>
+                <div class="testimonial-company">AutoPremium MG</div>
+                <div style="margin-top: 1rem; color: #00ff88; font-weight: bold;">📈 +40% conversão</div>
+            </div>
+            
+            <div class="testimonial-card">
+                <div class="testimonial-quote">
+                    "Em 30 dias aumentamos as vendas em 60%! O bot trabalha enquanto dormimos."
+                </div>
+                <div class="testimonial-author">Fernanda</div>
+                <div class="testimonial-company">MultiMarcas RJ</div>
+                <div style="margin-top: 1rem; color: #00ff88; font-weight: bold;">💰 +60% vendas</div>
+            </div>
+            
+            <div class="testimonial-card">
+                <div class="testimonial-quote">
+                    "Agora atendemos 24h sem custo extra. Autobolt virou nosso melhor vendedor!"
+                </div>
+                <div class="testimonial-author">Lucas</div>
+                <div class="testimonial-company">Seminovos SP</div>
+                <div style="margin-top: 1rem; color: #00ff88; font-weight: bold;">🌙 Vendas noturnas</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Pricing -->
+<section class="pricing">
+    <div class="container">
+        <h2 class="section-title">💰 Investimento</h2>
+        
+        <div class="pricing-card">
+            <h3>AUTOBOLT COMPLETO</h3>
+            <div class="price">
+                <span style="text-decoration: line-through; opacity: 0.6; font-size: 0.8em;">R$ 247</span><br>
+                R$ 197
+                <span class="price-period">/mês</span>
+            </div>
+            
+            <ul class="pricing-features">
+                <li>🤖 Agente IA 24/7</li>
+                <li>📱 Integração WhatsApp</li>
+                <li>🎯 Qualificação automática</li>
+                <li>📊 Dashboard completo</li>
+                <li>⚡ Respostas em 3 segundos</li>
+                <li>🔄 Transferência inteligente</li>
+                <li>📈 Relatórios detalhados</li>
+                <li>🛠️ Setup completo</li>
+                <li>📞 Suporte dedicado</li>
+            </ul>
+            
+            <a href="https://wa.me/5511999999999?text=Quero%20conhecer%20o%20Autobolt" class="cta-button" target="_blank">
+                QUERO AGORA!
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq">
+    <div class="container">
+        <h2 class="section-title">❓ Perguntas Frequentes</h2>
+        
+        <div class="faq-item">
+            <button class="faq-question" onclick="toggleFaq(this)">
+                O Autobolt substitui meus vendedores?
+                <span>+</span>
+            </button>
+            <div class="faq-answer">
+                Não! O Autobolt potencializa sua equipe. Ele atende as dúvidas iniciais e transfere leads qualificados para seus vendedores, que podem focar no fechamento de vendas.
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <button class="faq-question" onclick="toggleFaq(this)">
+                Funciona com meu WhatsApp atual?
+                <span>+</span>
+            </button>
+            <div class="faq-answer">
+                Sim! Integramos com seu número atual. Seus clientes continuam enviando mensagens normalmente.
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <button class="faq-question" onclick="toggleFaq(this)">
+                E se o cliente fizer uma pergunta muito complexa?
+                <span>+</span>
+            </button>
+            <div class="faq-answer">
+                Autobolt repassa para o vendedor humano e envia um resumo completo da conversa! Seu time recebe todas as informações necessárias para continuar o atendimento de forma personalizada.
+            </div>
+        </div>
+        
+        <div class="faq-item">
+            <button class="faq-question" onclick="toggleFaq(this)">
+                O bot precisa de treinamento?
+                <span>+</span>
+            </button>
+            <div class="faq-answer">
+                O agente já está treinado. Autobolt já vem pronto para usar com linguagem de atendimento específicas para a sua loja de seminovos.
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Final CTA -->
+<section class="hero" style="min-height: 50vh;">
+    <div class="container" style="text-align: center;">
+        <h2 style="font-size: 2.5rem; margin-bottom: 1rem;">
+            🔥 Oferta Limitada - Apenas R$ 197/mês
+        </h2>
+        <p style="font-size: 1.2rem; margin-bottom: 2rem; opacity: 0.9;">
+            Seja um dos primeiros a revolucionar suas vendas com IA
+        </p>
+        <a href="https://wa.me/5511999999999?text=Quero%20conhecer%20o%20Autobolt" class="cta-button" target="_blank">
+            QUERO AGORA!
+        </a>
+    </div>
+</section>
+
+<!-- WhatsApp Float Button -->
+<a href="https://wa.me/5511999999999?text=Quero%20conhecer%20o%20Autobolt" class="whatsapp-float" target="_blank">
+    📱
+</a>
+
+<script>
+function toggleFaq(button) {
+    const answer = button.nextElementSibling;
+    const icon = button.querySelector('span');
+    
+    if (answer.classList.contains('active')) {
+        answer.classList.remove('active');
+        icon.textContent = '+';
+    } else {
+        // Close all other FAQs
+        document.querySelectorAll('.faq-answer').forEach(ans => ans.classList.remove('active'));
+        document.querySelectorAll('.faq-question span').forEach(ic => ic.textContent = '+');
+        
+        // Open this FAQ
+        answer.classList.add('active');
+        icon.textContent = '-';
+    }
+}
+</script>
+
+<?php get_footer(); ?>
